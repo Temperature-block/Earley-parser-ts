@@ -18,7 +18,7 @@ for(var k=0;k<a.length;k++){
                 m=m+temp.valbod[p].val;
             }
         }
-        if(dotp==temp.valbod.length){
+        if(dotp>=temp.valbod.length){
             m=m+"⚪";
         }
         m=m+" "+"("+temp.curpo[1]+")"
